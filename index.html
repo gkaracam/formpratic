@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form action="result.html" method="get">
+    <div class="main" style="border: 1px solid black;">
+        <h1 class="head">ABC Tasarım Programı Kurulum ve Satış Sözleşmesi</h1>
+        <div class="onay">
+            <fieldset>
+                <legend>Sözleşme Onay</legend>
+                <input type="checkbox" name="onay" id="onay" value="onay" required>
+                <label for="onay">Aşağıdaki Bilgilerin doğuluğunu kabul ediyorm ve sözleşmesini onaylıyorum.</label>
+                <br>
+                <input type="submit" value="Formu Kaydet">
+                <input type="reset" value="Formu Temizle">
+            </fieldset>
+        </div>
+        <div class="kisiselbilgi">
+            <fieldset>
+                <legend>Kişisel Bilgiler</legend>
+                <label for="sifre">Form Güvenlik ID</label required>
+                <input type="password" name="giris_parola" id="sifre">
+                <br>
+                <label for="name" >İsim</label>
+                <input type="text" name="isim" id="name" required>
+                <br>
+                <label for="lname" >Soyisim</label>
+                <input type="text" name="Soyisim" id="lname" >
+                <br>
+                <label for="age" >Yaş</label>
+                <input type="text" name="Yas" id="age"  >
+                <br>
+                <label for="sehir">Yaşadığınız Şehir</label>
+            <select name="Sehir">
+                <option value="0">------</option>
+                <option value="1">Adana</option>
+                <option value="2">Adıyaman</option>
+                <option value="3">Afyonkarahisar</option>
+                <option value="4">Ağrı</option>
+                <option value="5">Amasya</option>
+                <option value="6">Ankara</option>
+                <option value="7">Antalya</option>
+                <option value="8">Artvin</option>
+                <option value="9">Aydın</option>
+                <option value="10">Balıkesir</option>
+                <option value="11">Bilecik</option>
+                <option value="12">Bingöl</option>
+                <option value="13">Bitlis</option>
+                <option value="14">Bolu</option>
+                <option value="15">Burdur</option>
+                <option value="16">Bursa</option>
+                <option value="17">Çanakkale</option>
+                <option value="18">Çankırı</option>
+                <option value="19">Çorum</option>
+                <option value="20">Denizli</option>
+                <option value="21">Diyarbakır</option>
+                <option value="22">Edirne</option>
+                <option value="23">Elazığ</option>
+                <option value="24">Erzincan</option>
+                <option value="25">Erzurum</option>
+                <option value="26">Eskişehir</option>
+                <option value="27">Gaziantep</option>
+                <option value="28">Giresun</option>
+                <option value="29">Gümüşhane</option>
+                <option value="30">Hakkâri</option>
+                <option value="31">Hatay</option>
+                <option value="32">Isparta</option>
+                <option value="33">Mersin</option>
+                <option value="34">İstanbul</option>
+                <option value="35">İzmir</option>
+                <option value="36">Kars</option>
+                <option value="37">Kastamonu</option>
+                <option value="38">Kayseri</option>
+                <option value="39">Kırklareli</option>
+                <option value="40">Kırşehir</option>
+                <option value="41">Kocaeli</option>
+                <option value="42">Konya</option>
+                <option value="43">Kütahya</option>
+                <option value="44">Malatya</option>
+                <option value="45">Manisa</option>
+                <option value="46">Kahramanmaraş</option>
+                <option value="47">Mardin</option>
+                <option value="48">Muğla</option>
+                <option value="49">Muş</option>
+                <option value="50">Nevşehir</option>
+                <option value="51">Niğde</option>
+                <option value="52">Ordu</option>
+                <option value="53">Rize</option>
+                <option value="54">Sakarya</option>
+                <option value="55">Samsun</option>
+                <option value="56">Siirt</option>
+                <option value="57">Sinop</option>
+                <option value="58">Sivas</option>
+                <option value="59">Tekirdağ</option>
+                <option value="60">Tokat</option>
+                <option value="61">Trabzon</option>
+                <option value="62">Tunceli</option>
+                <option value="63">Şanlıurfa</option>
+                <option value="64">Uşak</option>
+                <option value="65">Van</option>
+                <option value="66">Yozgat</option>
+                <option value="67">Zonguldak</option>
+                <option value="68">Aksaray</option>
+                <option value="69">Bayburt</option>
+                <option value="70">Karaman</option>
+                <option value="71">Kırıkkale</option>
+                <option value="72">Batman</option>
+                <option value="73">Şırnak</option>
+                <option value="74">Bartın</option>
+                <option value="75">Ardahan</option>
+                <option value="76">Iğdır</option>
+                <option value="77">Yalova</option>
+                <option value="78">Karabük</option>
+                <option value="79">Kilis</option>
+                <option value="80">Osmaniye</option>
+                <option value="81">Düzce</option>
+            </select>
+                <br>
+                <label for="email">Mail Adresi</label>
+                <input type="email" name="mail_giris" id="email"  >
+                <br>
+                <label for="foto" >Fotoğraf Ekle</label>
+                <input type="submit" value="Dosya Seç" id="foto" >
+                <span>Dosya Seçilmedi</span>
+            </fieldset>
+
+        </div>
+        <div class="diger" >
+            <fieldset>
+                <legend>Diğer Bilgiler</legend>
+                <div>
+                    <label for="tarih">Sektöre Giriş Tarihi</label>
+                    <input type="date" name="sec_tar" id="tarih">
+                </div>
+                <div class="sektor">
+                    <div class="deneyim">
+                        <p>Sektör Deneyimi</p> 
+                    </div>
+                    <div>
+                        <input type="radio" name="exp" id="exper" value="1-5 yıl" >
+                        <label for="exper">1-5 yıl</label>
+                        <br>
+                        <input type="radio" name="exp" id="exper" value="6-10 yıl" >
+                        <label for="exper">6-10 yıl</label>
+                        <br>
+                        <input type="radio" name="exp" id="exper" value="11-15 yıl" >
+                        <label for="exper">11-15 yıl</label>
+                        <br>
+                        <input type="radio" name="exp" id="exper" value="15 üzeri" >
+                        <label for="exper">15-üzeri yıl</label>
+                        </div>
+                    </div>
+                <div class="diller">
+                    <div class="program">
+                        <label for="dil">Programlama Dilleri</label>
+                    </div>
+                    <div>
+                        <select name="terdil" id="dil" size="5" multiple>
+                            <option value="C#">C#</option>
+                            <option value="PHP">PHP</option>
+                            <option value="Java">Java</option>
+                            <option value="Java">Java</option>
+                            <option value="JavaScript">JavaScript</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="sozkop">
+            <fieldset>
+                <legend>Sözleşme Kopyası</legend>
+                <textarea  name="sozlesme_kopyasi" style="width:500px; height: 150px;" readonly>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit debitis ratione quas deleniti obcaecati animi nisi quibusdam. Ipsum maxime provident minima illum cum a sint alias! Totam iure aperiam doloremque dolores, reiciendis atque dolorem nostrum sit aliquid itaque alias? Laborum omnis ullam possimus quia sint alias sapiente, explicabo a odit saepe inventore dolorum dignissimos modi ea totam animi voluptatum distinctio accusamus optio cum quos doloribus velit atque! Voluptates corrupti similique aliquid provident labore, veniam fugiat? Quaerat quis aspernatur modi recusandae repellendus animi cupiditate. Nisi autem sunt dolor, quam officiis illo facere consectetur nostrum perspiciatis fuga qui vel doloribus perferendis molestias?
+                </textarea>
+                </div>
+            </fieldset>
+        <div class="mail">
+            <fieldset>
+                <legend>Mail Listesi</legend>
+                <label for="istiyorum">Mail Listesine Katılmak <strong>İstiyorum</strong></label>
+                <input type="radio" name="istiyorum" id="sondurum" value="istiyorum">
+                <br>
+                <label for="istemiyorum">Mail Listesine Katılmak <strong><u>İstemiyorum</u></strong></label>
+                <input type="radio" name="istemiyorum" id="sondurum" value="istemiyorum">
+            </fieldset>
+        </div>
+
+    </div>
+</body>
+</html>

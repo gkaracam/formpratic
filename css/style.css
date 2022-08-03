@@ -1,0 +1,61 @@
+.main{
+    margin: 5px 25px 5px 25px;
+}
+.head{
+    text-align: center;
+}
+.onay{
+    margin: 5px 15px 5px 15px;
+    padding: 5px;
+}
+.kisiselbilgi {
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+}
+.kisiselbilgi label{
+    display: inline-block;
+    width: 200px;
+}
+.diger{
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+}
+.diger label{
+    display: inline-block;
+    width: 200px;
+}
+.diger p{
+    padding-left: 30px;
+    padding-bottom: 0px;
+}
+.diger label{
+    display: inline-block;
+    width: 200px; 
+}
+.sektor{
+    display: flex;
+}
+.deneyim{
+    width: 200px;
+
+}
+.deneyim p {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.diller {
+    display: flex;
+}
+.program {
+    padding-top: 50px;
+}
+.sozkop {
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+}
+.mail {
+    margin: 0px 15px 5px 15px;
+    padding: 5px;
+}
+
+
